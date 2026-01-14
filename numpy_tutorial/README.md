@@ -14,4 +14,6 @@ This project requires a Conda environment with the latest compatible versions of
 Run the following command in your terminal. This creates an environment named `numpy_tutorial` and installs the latest versions of NumPy and Numba from the conda-forge channel.
 
 ```bash
-conda create --name numpy_tutoral -c conda-forge numpy numba
+conda create --name numpy_tutorial -c conda-forge numpy numba
+pip install ipykernel
+pip install matplotlib
